@@ -1,0 +1,76 @@
+Download https://repo.spongepowered.org/maven/org/spongepowered/mixin/0.7.1-SNAPSHOT/mixin-0.7.1-20170815.103047-10.pomDownload https://repo.spongepowered.org/maven/org/spongepowered/mixin/0.7.1-SNAPSHOT/mixin-0.7.1-20170815.103047-10.pom
+
+Download https://repo.spongepowered.org/maven/org/spongepowered/mixin/0.7.1-SNAPSHOT/mixin-0.7.1-20170815.103047-10.jarDownload https://repo.spongepowered.org/maven/org/spongepowered/mixin/0.7.1-SNAPSHOT/mixin-0.7.1-20170815.103047-10.jar
+
+#################################################
+         ForgeGradle 1.2-SNAPSHOT-fb514d3        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP unknown               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
+:downloadClient SKIPPED
+:downloadServer SKIPPED
+:getVersionJson
+:extractUserDev
+:mergeJars SKIPPED
+:applyBinPatches
+:downloadMcpTools SKIPPED
+:extractMcpData
+:genSrgs
+:deobfBinJar
+Applying SpecialSource...
+Applying Exceptor...
+Stripping synthetics...
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:copySrgs
+:sourceMainJava
+:compileJava
+Download https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+Download https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+Download https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+Download http://files.minecraftforge.net/maven/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+Download http://files.minecraftforge.net/maven/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar
+Download http://files.minecraftforge.net/maven/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+Note: SpongePowered MIXIN Annotation Processor Version=0.7.1
+Note: ObfuscationServiceMCP supports type: "searge"
+Note: ObfuscationServiceMCP supports type: "notch"
+Note: Loading searge mappings from C:\Users\afral\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\srgs\mcp-srg.srg
+Note: Writing refmap to C:\Users\afral\Desktop\Modcraters\Gambiarra-BetterQuesting-master\build\tmp\mixins\mixin.magihandlers.refmap.json
+C:\Users\afral\Desktop\Modcraters\Gambiarra-BetterQuesting-master\build\sources\java\a\b\c\gambiarra\MixinPatch.java:40: warning: Cannot find target for @Shadow field in net.minecraft.inventory.ContainerPlayer
+    @Shadow
+    ^
+C:\Users\afral\Desktop\Modcraters\Gambiarra-BetterQuesting-master\build\sources\java\a\b\c\gambiarra\MixinPatch.java:40: warning: Unable to locate obfuscation mapping for @Shadow field
+    @Shadow
+    ^
+C:\Users\afral\Desktop\Modcraters\Gambiarra-BetterQuesting-master\build\sources\java\a\b\c\gambiarra\MixinPatch.java:43: warning: Cannot find target for @Shadow field in net.minecraft.inventory.ContainerPlayer
+    @Shadow
+    ^
+C:\Users\afral\Desktop\Modcraters\Gambiarra-BetterQuesting-master\build\sources\java\a\b\c\gambiarra\MixinPatch.java:43: warning: Unable to locate obfuscation mapping for @Shadow field
+    @Shadow
+    ^
+Note: Writing refmap to C:\Users\afral\Desktop\Modcraters\Gambiarra-BetterQuesting-master\build\tmp\mixins\mixin.magihandlers.refmap.json
+Note: Writing searge output SRGs to C:\Users\afral\Desktop\Modcraters\Gambiarra-BetterQuesting-master\build\tmp\mixins\mixin.magihandlers.srg
+Note: Writing refmap to C:\Users\afral\Desktop\Modcraters\Gambiarra-BetterQuesting-master\build\tmp\mixins\mixin.magihandlers.refmap.json
+Note: Writing refmap to C:\Users\afral\Desktop\Modcraters\Gambiarra-BetterQuesting-master\build\tmp\mixins\mixin.magihandlers.refmap.json
+Note: Writing searge output SRGs to C:\Users\afral\Desktop\Modcraters\Gambiarra-BetterQuesting-master\build\tmp\mixins\mixin.magihandlers.srg
+4 warnings
+:processResources
+:classes
+:jar
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+:reobf
+:assemble
+:check UP-TO-DATE
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 2 mins 42.175 secs
